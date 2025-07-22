@@ -11,7 +11,7 @@ export function useTimer() {
         isResting: false,
     });
 
-    const intervalRef = useRef<NodeJS.Timeout | null>(null);
+    const intervalRef = useRef<number | null>(null);
 
     const startTimer = (duration: number, sets: number, restTime: number = 10) => {
         setTimerState({

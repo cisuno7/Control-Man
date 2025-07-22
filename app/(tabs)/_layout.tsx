@@ -15,15 +15,7 @@ export default function TabLayout() {
         tabBarActiveTintColor: '#3b82f6',
         tabBarInactiveTintColor: '#9ca3af',
       }}>
-      <Tabs.Screen
-        name="index"
-        options={{
-          title: 'Home',
-          tabBarIcon: ({ size, color }) => (
-            <Activity size={size} color={color} />
-          ),
-        }}
-      />
+      
       <Tabs.Screen
         name="exercises"
         options={{
